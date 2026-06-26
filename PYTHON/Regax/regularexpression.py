@@ -34,3 +34,10 @@ text="99234156122"
 text1="73t38rtt328"
 data=re.search(r"\d+{10}",text)
 print(data)
+
+
+
+import  re 
+name="join@123"
+data=re.sub("@","",name)
+print(data)
